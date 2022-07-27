@@ -8,9 +8,9 @@ A home page for a hosting service providing company made using pure HTML and CSS
 - Positioning
 
 ## Time Taken for Completion
-- 4 hours
+- 6 hours
 
-<!-- ### Checkout the Project here : [interior-decors](https://interior-decors.netlify.app/) -->
+### Checkout the Project here : [hostingservices](https://hostingservices.netlify.app/)
 
 ## Output
 ![output](output.png)
