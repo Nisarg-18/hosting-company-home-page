@@ -100,6 +100,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
   padding: 20px 140px;
 }
 .grid-block p {
@@ -137,6 +138,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 .onepack {
   background-color: #ffffff;
@@ -230,7 +232,6 @@ body {
   font-size: 15px;
   font-weight: 400;
   padding: 0px 300px;
-
   padding-bottom: 30px;
 }
 .firstpart,
@@ -239,6 +240,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
   padding-bottom: 40px;
 }
 .blockend {
@@ -275,14 +277,10 @@ body {
   background: linear-gradient(360deg, #0680ee, #09c4f9);
 }
 .lastcontent h1 {
-  width: 600px;
   font-size: 40px;
   font-weight: 700;
   line-height: 45px;
   padding-bottom: 20px;
-}
-.lastcontent p {
-  width: 500px;
 }
 .lastbtn {
   padding: 10px 20px;
@@ -328,4 +326,161 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .list {
+    display: none;
+  }
+  .top-image {
+    width: 250px;
+    height: 250px;
+  }
+  .top-content p {
+    font-size: 15px;
+  }
+  .top-content h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .grid-block p {
+    width: 250px;
+  }
+  .onepack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .below-heading {
+    padding: 10px 100px;
+  }
+  .blockend {
+    margin-bottom: 20px;
+  }
+  .firstpart {
+    padding-bottom: 0px;
+  }
+  .lastbtn {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-image {
+    display: none;
+  }
+  .blocks {
+    align-items: center;
+    justify-content: center;
+  }
+  .mid {
+    flex-direction: column;
+    text-align: center;
+  }
+  .mid p {
+    width: 400px;
+  }
+  .onepack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .end {
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+  .end h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .end p {
+    text-align: center;
+    width: 600px;
+    margin-bottom: 20px;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .logoandtext p {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  .part-1,
+  .part-2 {
+    align-items: center;
+    justify-content: center;
+  }
+  .lastcontent {
+    padding: 10px 0px;
+    text-align: center;
+  }
+  .lastcontent p {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .end h1 {
+    width: 300px;
+    text-align: center;
+  }
+  .end p {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .below-heading {
+    padding: 20px;
+  }
+  .pricing,
+  .logo,
+  .footer,
+  .midend {
+    padding: 10px 30px;
+  }
+  .mid {
+    text-align: start;
+  }
+  .mid h1 {
+    width: 300px;
+  }
+  .mid p {
+    width: 300px;
+  }
+  .blocks {
+    margin-bottom: 10px;
+    padding: 10px 30px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .end-logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 280px) {
+  .lastcontent p {
+    width: 140px;
+  }
+  .lastcontent h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .grid-block p {
+    width: 250px;
+  }
 }

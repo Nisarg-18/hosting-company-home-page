@@ -6,14 +6,20 @@ A home page for a hosting service providing company made using pure HTML and CSS
 ## What have I learnt from this project?
 - Flexbox
 - Positioning
+- Media Queries in CSS
 
 ## Time Taken for Completion
-- 6 hours
+- 7 hours
 
 ### Checkout the Project here : [hostingservices](https://hostingservices.netlify.app/)
 
 ## Output
+
+## Desktop View
 ![output](output.png)
+
+## Mobile View
+![mobile](mobile.png)
 
 Made with ❤️ by Nisarg Shah
 
